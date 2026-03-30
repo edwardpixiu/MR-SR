@@ -1,0 +1,15 @@
+# Core libraries
+numpy==1.26.4
+matplotlib==3.9.2
+opencv-python==4.10.0.84
+Pillow==10.4.0
+scikit-image==0.24.0
+pandas==2.2.3
+nibabel==5.2.1
+
+# Utilities
+tqdm==4.66.5
+colorama==0.4.6; sys_platform == "win32"  # Only needed on Windows for UI colors
+tensorboard==2.18.0  # Optional: For experiment logging
+psutil>=5.9.0  # For hardware monitoring in evaluation
+windows-curses>=2.3.0; sys_platform == "win32"  # For terminal UI on Windows
